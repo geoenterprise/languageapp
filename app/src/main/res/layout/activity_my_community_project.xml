@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/communityLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:context=".MyCommunityProjectActivity">
+
+        <TextView
+            android:id="@+id/contextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Context:\nYou are part of a community improvement group. You want to propose an idea that will make your neighborhood a better place."
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/readingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Reading:\nAna and her friends created a garden using recycled bottles. They spoke to local leaders and got volunteers to help. After three months, the space was green and filled with flowers and vegetables."
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/writingPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✍️ Challenge:\nWhat is one idea you would propose to improve your community?"
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/writingInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your idea here..."
+            android:gravity="top"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:inputType="textMultiLine"
+            android:minLines="4" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Idea"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎙️ Record Voice"
+            android:layout_marginTop="16dp"
+            />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▶️ Play Recording"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

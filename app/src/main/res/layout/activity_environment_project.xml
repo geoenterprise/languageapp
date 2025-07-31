@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/contextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌎 Context:\nYou want to help raise awareness about protecting the environment in your local area."
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/readingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Reading:\nTom noticed that many people in his town were throwing trash in the river. He decided to organize a cleanup day with his school. They made posters and invited families to help. It became a monthly tradition."
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/writingPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✍️ Challenge:\nWhat actions can people take to protect the environment in your area?"
+            android:textSize="18sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/writingInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Type your answer here..."
+            android:gravity="top"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Idea"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
